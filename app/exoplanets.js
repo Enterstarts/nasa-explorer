@@ -4,7 +4,6 @@ angular.module("app")
     $scope.lng = "-23.510153";
     $scope.dim = '0.100';
     var apiKey="1GPhmbDVRyme7eZw7T7PwOtdHfImZLt4jyrddSPc";
-    // var apiKey="DEMO_KEY";
 
     fetchImagery();
     $scope.load = function() {
